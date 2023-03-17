@@ -146,7 +146,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/lib/hw/power.htc.so:system/lib/hw/power.htc.so \
     vendor/htc/m8qlul/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/htc/m8qlul/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
+    vendor/htc/m8qlul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/htc/m8qlul/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    vendor/htc/m8qlul/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/htc/m8qlul/proprietary/lib/libalDE.so:system/lib/libalDE.so \
     vendor/htc/m8qlul/proprietary/lib/libalDynamicWarping.so:system/lib/libalDynamicWarping.so \
     vendor/htc/m8qlul/proprietary/lib/libalIAF.so:system/lib/libalIAF.so \
@@ -155,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/lib/libcamera_af.so:system/lib/libcamera_af.so \
     vendor/htc/m8qlul/proprietary/lib/libcamera_awb.so:system/lib/libcamera_awb.so \
     vendor/htc/m8qlul/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/m8qlul/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/htc/m8qlul/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/htc/m8qlul/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/htc/m8qlul/proprietary/lib/libhtc_depthmap.so:system/lib/libhtc_depthmap.so \
@@ -216,10 +219,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/htc/m8qlul/proprietary/lib64/libmemalloc.so:system/lib64/libmemalloc.so \
     vendor/htc/m8qlul/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
+    vendor/htc/m8qlul/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/htc/m8qlul/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/m8qlul/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/m8qlul/proprietary/lib64/libcamera_aec.so:system/lib64/libcamera_aec.so \
     vendor/htc/m8qlul/proprietary/lib64/libcamera_af.so:system/lib64/libcamera_af.so \
     vendor/htc/m8qlul/proprietary/lib64/libcamera_awb.so:system/lib64/libcamera_awb.so \
+    vendor/htc/m8qlul/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/htc/m8qlul/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/m8qlul/proprietary/lib64/libhtc_loglevel.so:system/lib64/libhtc_loglevel.so \
     vendor/htc/m8qlul/proprietary/lib64/libhtcdrm1.so:system/lib64/libhtcdrm1.so \
@@ -272,6 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -686,10 +693,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/libhtcril_db.so:system/vendor/lib/libhtcril_db.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/htc/m8qlul/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/htc/m8qlul/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/htc/m8qlul/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/htc/m8qlul/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -871,5 +880,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/htc/m8qlul/proprietary/vendor/lib64/libhtcril_db.so:system/vendor/lib64/libhtcril_db.so \
     vendor/htc/m8qlul/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/htc/m8qlul/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd 
+    vendor/htc/m8qlul/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so 
 
