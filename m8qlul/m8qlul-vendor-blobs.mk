@@ -36,13 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/etc/acdbdata/MTP/Speaker_cal.acdb:system/etc/acdbdata/MTP/Speaker_cal.acdb \
     vendor/htc/m8qlul/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/m8qlul/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/htc/m8qlul/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/htc/m8qlul/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/htc/m8qlul/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/htc/m8qlul/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
@@ -169,7 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/m8qlul/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/m8qlul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/htc/m8qlul/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/m8qlul/proprietary/lib/libmmcamera_ait9882proc.so:system/lib/libmmcamera_ait9882proc.so \
     vendor/htc/m8qlul/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/m8qlul/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -881,5 +873,35 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/vendor/lib64/libhtcril_db.so:system/vendor/lib64/libhtcril_db.so \
     vendor/htc/m8qlul/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/htc/m8qlul/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/htc/m8qlul/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so 
+    vendor/htc/m8qlul/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libtinycompress_vendor.so:system/vendor/lib/libtinycompress_vendor.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libtinycompress_vendor.so:system/vendor/lib64/libtinycompress_vendor.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libmmosal_proprietary.so:system/vendor/lib64/libmmosal_proprietary.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
 
