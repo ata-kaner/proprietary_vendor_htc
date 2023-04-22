@@ -911,5 +911,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/htc/m8qlul/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
-    vendor/htc/m8qlul/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd
+    vendor/htc/m8qlul/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/htc/m8qlul/proprietary/vendor/lib64/hw/nfc_nci.msm8916.so:system/vendor/lib64/hw/nfc_nci.msm8916.so
 
